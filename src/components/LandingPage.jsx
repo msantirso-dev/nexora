@@ -1316,10 +1316,10 @@ function Navbar({ onCta }) {
     >
       <Container className="flex h-[72px] items-center justify-between">
         <div className="flex items-center gap-2.5">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg" style={{ background: "linear-gradient(to bottom right, #2563EB, #22D3EE)" }}>
-            <Sparkles className="h-4 w-4 text-white" />
+          <div className="relative h-8 w-8">
+            <img src="/pit-logo-white.png" alt="PIT" className="absolute inset-0 h-full w-full object-contain" />
           </div>
-          <span className="text-[15px] font-semibold text-white">Nexora</span>
+          <span className="text-[15px] font-semibold text-white">PIT</span>
         </div>
 
         <nav className="hidden items-center gap-8 lg:flex">
@@ -1376,13 +1376,13 @@ function Footer() {
       <Container>
         <div className="flex flex-col items-center justify-between gap-6 border-t border-white/10 pt-10 md:flex-row">
           <div className="flex items-center gap-2.5">
-            <div className="flex h-7 w-7 items-center justify-center rounded-lg" style={{ background: "linear-gradient(to bottom right, #2563EB, #22D3EE)" }}>
-              <Sparkles className="h-3.5 w-3.5 text-white" />
+            <div className="relative h-7 w-7">
+              <img src="/pit-logo-white.png" alt="PIT" className="absolute inset-0 h-full w-full object-contain" />
             </div>
-            <span className="text-[14px] font-medium text-white">Nexora</span>
+            <span className="text-[14px] font-medium text-white">PIT</span>
             <span className="text-[12.5px] text-white/30">— transformación digital empresarial</span>
           </div>
-          <span className="text-[12.5px] text-white/30">© 2026 Nexora. Todos los derechos reservados.</span>
+          <span className="text-[12.5px] text-white/30">© 2026 PIT. Todos los derechos reservados.</span>
         </div>
       </Container>
     </footer>
